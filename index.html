@@ -7,8 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 
+<link href="css/bootstrap.css" rel="stylesheet">
     <title>Starter Template for Bootstrap</title>
 
     
@@ -43,31 +43,28 @@
       </div>
     </nav>
 
-    <div class="container">
-        
-        <div class="container">
-    <div class="masonry">
-    <div class="post-box col-lg-4 col-md-4 col-sm-4"> <a href="/posts/1"><img class="img-responsive img-thumbnail" src="http://s3.amazonaws.com/s3.babblin.gs/posts/images/000/000/260/large/tumblr_msnl3ayMxU1rsnzy2o5_1280.jpg" /></a>
+  
+    <div class="masonry ">
+    
+    <div class="post-box col-sm-4">
+      <a href="images/try.jpg"><img class="img-responsive items" src="images/thumbnails/tn_portfolio.jpg" />
+      </a>
+    </div>
+    
+    <div class="post-box col-sm-4"> <a href="/posts/2"><img class="img-responsive " src="http://s3.amazonaws.com/s3.babblin.gs/posts/images/000/000/257/large/24ekOAH.jpg" /></a>
 
     </div>
-    <div class="post-box col-lg-4 col-md-4 col-sm-4"> <a href="/posts/2"><img class="img-responsive img-thumbnail" src="http://s3.amazonaws.com/s3.babblin.gs/posts/images/000/000/257/large/24ekOAH.jpg" /></a>
+    <div class="post-box col-sm-4 "> <a href="/posts/3"><img class="img-responsive " src="http://s3.amazonaws.com/s3.babblin.gs/posts/images/000/000/248/large/tumblr_mqeom2a2oU1qbltjyo2_1280.jpg" /></a>
 
     </div>
-    <div class="post-box col-lg-4 col-md-4 col-sm-4"> <a href="/posts/3"><img class="img-responsive img-thumbnail" src="http://s3.amazonaws.com/s3.babblin.gs/posts/images/000/000/248/large/tumblr_mqeom2a2oU1qbltjyo2_1280.jpg" /></a>
+    <div class="post-box col-sm-4"> <a href="/posts/4"><img class="img-responsive " src="http://s3.amazonaws.com/s3.babblin.gs/posts/images/000/000/244/large/3CjBFlN.jpg" /></a>
 
     </div>
-    <div class="post-box col-lg-4 col-md-4 col-sm-4"> <a href="/posts/4"><img class="img-responsive img-thumbnail" src="http://s3.amazonaws.com/s3.babblin.gs/posts/images/000/000/244/large/3CjBFlN.jpg" /></a>
-
-    </div>
-    <div class="post-box col-lg-4 col-md-4 col-sm-4"> <a href="/posts/5"><img class="img-responsive img-thumbnail" src="http://s3.amazonaws.com/s3.babblin.gs/posts/images/000/000/241/large/OoRsR42.gif" /></a>
+    <div class="post-box col-sm-4"> <a href="/posts/5"><img class="img-responsive " src="http://s3.amazonaws.com/s3.babblin.gs/posts/images/000/000/241/large/OoRsR42.gif" /></a>
 
     </div>
     </div>
-</div>
-      
-      </div>
 
-    </div><!-- /.container -->
 
 <!--
 <div class="starter-template">
@@ -91,8 +88,8 @@
             $container.imagesLoaded(function () {
                     $container.masonry({
                         itemSelector: '.post-box',
-                        columnWidth: '.post-box',
-                        transitionDuration: 0
+                        columnwidth: 30,
+                        
                     });
                 });
             });
